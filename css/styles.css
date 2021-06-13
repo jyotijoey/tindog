@@ -1,0 +1,115 @@
+#title {
+    background-color: rgb(216, 61, 23);
+    color: white;
+    font-weight: bold;
+}
+#features {
+    padding: 3cm;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+#testimonials{
+    
+    background-color: rgb(216, 61, 23);
+    text-align: center;
+    color: white;
+}
+.carousel-item {
+    padding: 10% 10% 5% 10%;
+}
+#press {
+    background-color: rgb(216, 61, 23);
+    text-align: center;
+    padding: 3%;
+}
+#pricing {
+    padding: 10%;
+}
+#cta {
+    background-color: rgb(216, 61, 23);
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+.cta-text{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    color: white;
+    width: 500px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+p {
+    color: rgb(189, 124, 94);    
+}
+
+body{
+    font-family: "Montserrat-Black";
+}
+
+.download-button {
+    margin: 1cm 1cm 0 0;
+}
+
+.navbar-brand{
+    padding-left: 0cm;
+}
+.icon{
+    color: rgb(165, 67, 42);
+    margin-bottom: 1cm;
+}
+.icon:hover{
+     color: rgb(235, 101, 48);
+ }
+ .testimonial-ing {
+     width: 10%;
+     border-radius: 100%;
+     margin: 3%;
+ }
+ .press-logo{
+     width:12%;
+     margin: 20px 20px 10px;
+ }
+ 
+ .price-c{
+     padding: 3% 2%;
+ }
+ .title-img{
+     position:absolute;
+     width: 50%;
+     transform: rotate(22deg);  
+ }
+ .container-fluid{
+     padding-bottom: 20%;
+ }
+ #footer{
+     text-align: center;
+     background-color: rgb(216, 61, 23);
+     color: rgb(211, 207, 203);
+     padding-bottom: 2%;
+ }
+
+ 
+
+ @media (max-width:1280px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+ }
+ 
